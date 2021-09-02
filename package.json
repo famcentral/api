@@ -1,0 +1,12 @@
+{
+  "name": "fam-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "ethereumjs-tx": "^2.1.2",
+    "express": "^4.17.1",
+    "web3": "^1.5.0"
+  }
+}
