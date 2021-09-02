@@ -32,6 +32,7 @@ async function getLiquidity() {
 const app = express();
 
 app.get("/info", async function (req, res) {
+    res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('content-type', 'application/json');
     res.send({ liquidity: await getLiquidity() });
 });
